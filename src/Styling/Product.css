@@ -1,0 +1,23 @@
+* {
+    font-family: Roboto, sans-serif;
+}
+
+.product-template {
+    height: 20rem;
+    min-width: 20rem;
+    background-color: white;
+    z-index: 1;
+    box-shadow: 1px 1px 5px -2px black;
+    display: flex;
+    flex-direction: column;
+}
+
+.product-title {
+    justify-content: center;
+}
+
+.product-image>img {
+    max-height: 200px;
+    width: 100%;
+    object-fit: contain;
+}
