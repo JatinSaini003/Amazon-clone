@@ -48,7 +48,7 @@
     top: -24rem;
     left: 2rem;
     width: 94vw;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -64,7 +64,7 @@
 
 .products-sliding-bar {
     flex-basis: 100%;
-    height: 20rem;
+    height: 23rem;
     min-width: 20rem;
     background-color: white;
     z-index: 1;

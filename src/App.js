@@ -1,6 +1,6 @@
 import './Styling/App.css';
-import Header from './Components/Header.js';
-import Home from './Components/Home';
+import Header from './Components/Header';
+import Home from './Pages/Home';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 

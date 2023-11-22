@@ -1,0 +1,43 @@
+* {
+    font-family: Roboto, sans-serif;
+}
+
+.Homeproduct-template {
+    height: 27rem;
+    width: 20rem;
+    min-width: 20rem;
+    background-color: white;
+    z-index: 1;
+    box-shadow: 1px 1px 5px -2px black;
+    display: flex;
+    flex-direction: column;
+}
+
+.Homeproduct-template h4 {
+    justify-content: center;
+    margin: 0 0 0.5rem 1rem;
+    color: #007185;
+}
+
+.Homeproduct-rating {
+    justify-content: center;
+    margin: 0 0 0.2rem 1rem;
+}
+
+.Homeproduct-price {
+    justify-content: center;
+    margin: 0 0 0.2rem 1rem;
+    font-weight: 500;
+}
+
+.Homeproduct-image {
+    width: 100%;
+    height: 75%;
+}
+
+.Homeproduct-image>img {
+    height: 85%;
+    width: 100%;
+    object-fit: contain;
+    margin: 0.5rem;
+}

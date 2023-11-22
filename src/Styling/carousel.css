@@ -1,0 +1,94 @@
+.product-carousel {
+    position: relative;
+    overflow: hidden;
+    padding: 1.5rem;
+    height: 86.5%;
+}
+
+.product-carousel h2 {
+    font-size: 1.3rem !important;
+    padding: 0 1.5rem 0.8rem 0;
+}
+
+.product-carousel a {
+    padding: 0 1.5rem 0.8rem 0;
+    font-size: 14px;
+    color: #007185;
+}
+
+.product-container {
+    height: 16rem;
+    display: flex;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    margin-left: 0.3rem;
+}
+
+.pre-btn,
+.next-btn {
+    /* border: 1px solid red; */
+    border: none;
+    height: 7.25rem;
+    width: 3.815rem;
+    position: absolute;
+    top: 6.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    z-index: 2;
+    color: #8080809c;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px #888;
+}
+
+.pre-btn:hover,
+.next-btn:hover {
+    cursor: pointer;
+    color: #424242e8;
+}
+
+.pre-btn {
+    left: 1.5rem;
+}
+
+.pre-btn:focus {
+    border-radius: 5px;
+    border: 2px solid #007185;
+}
+
+.next-btn:focus {
+    border-radius: 5px;
+    border: 2px solid #007185;
+}
+
+.next-btn {
+    right: 1.5rem;
+}
+
+.next-btn p,
+.pre-btn p {
+    font-size: 3.12rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scrollbar {
+    height: 0.4rem;
+    margin-top: 2rem;
+    border-radius: 0.625rem;
+}
+
+.bar {
+    border: 1px solid blue;
+    height: 100%;
+    border-radius: 0.625rem;
+    position: relative;
+    width: 33.33%;
+}
