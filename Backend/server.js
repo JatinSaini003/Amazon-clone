@@ -18,6 +18,7 @@ const PORT = process.env.PORT || 5000;
 //Middlewares
 App.use(bodyParser.json());
 App.use(authJWT())
+App.use('/Public/uploads', express.static(__dirname + '/Public/uploads'))
 // App.use(errorhandler())
 
 
